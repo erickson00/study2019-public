@@ -17,4 +17,9 @@
 > /opt/IBM/WebSphere/AppServer/profiles/AppSrv02/bin/startNode.sh<br>
 > /opt/IBM/WebSphere/AppServer/profiles/AppSrv02/bin/startServer.sh  server1
 
+## 清除WebSphere中jsp缓存
+更新部署在WebSphere上应用中的JSP页面时，更新完毕重启Websphere后，有时候会发现更新后不生效。
+原因有可能是WebSphere缓存的问题，可以尝试清除JSP缓存，方法如下：
+> ${WAS_HOME}\AppServer\profiles\AppSrv01\temp\wscache下的对应的应用的war目录
+> ${WAS_HOME}\AppServer\profiles\AppSrv01\temp\节点名称\server名称\下的应用的war目录
 
