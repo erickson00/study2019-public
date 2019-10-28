@@ -1,0 +1,13 @@
+2018-02-11 15:24:17,204  INFO DefaultSecurityFilterChain - Creating filter chain: 
+org.springframework.security.web.util.matcher.AnyRequestMatcher@1, 
+[org.springframework.security.web.context.SecurityContextPersistenceFilter@3cf3957d, 
+org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7ff34bd, 
+org.springframework.security.web.header.HeaderWriterFilter@4dad11a2, 
+org.springframework.security.web.authentication.logout.LogoutFilter@5be6ee89, 
+org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5426eed3, 
+org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5da2a66c, 
+org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@23169e35, 
+org.springframework.security.web.session.SessionManagementFilter@5b1627ea, 
+org.springframework.security.web.access.ExceptionTranslationFilter@70b913f5, 
+org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2dfe7327]
+
